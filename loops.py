@@ -13,3 +13,18 @@ for i in lst:
      lst=list(range(1,101))
      
      print (lst1)
+     # diplay even numbers from 10 to 100
+     numbers=list(range(10,101))
+
+     for i in numbers:
+          if i%2==0:
+               print(i)
+#display numbers divisible by 3 and 7 from numbers 10 to 100
+numbers=list(range(10,101))
+
+for i in numbers:
+     if i%3==0 and i%7==0: 
+          print(i)
+          nums.append (i)
+
+          print (numbers)
